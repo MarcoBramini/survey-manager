@@ -1,6 +1,6 @@
-# Exam #1: "Questionario"
+# Survey Manager
 
-## Student: s285913 Bramini Marco
+## Author: Bramini Marco (braminim@gmail.com)
 
 ## React Client Application Routes
 
