@@ -1,0 +1,13 @@
+PUT http://localhost:3001/survey-manager/apis/admin/surveys/16 HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Ice cream survey",
+  "description": "A simple survey to assess if people don't like ice cream.",
+  "createdAt": "2021-06-18T22:13:41.962Z",
+  "isPublished": 1,
+  "publishedAt": null,
+  "estCompletionMinutes": 7,
+  "submitsCount": 0,
+  "userID": 1
+}

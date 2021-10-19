@@ -1,0 +1,15 @@
+.error-toast {
+  position: fixed;
+  bottom: 0vh;
+  left: 0;
+  margin: 5vw;
+  z-index: 1100;
+}
+
+.error-toast-body {
+  font-size: 1rem;
+}
+
+.error-toast-title {
+  font-size: 1rem;
+}

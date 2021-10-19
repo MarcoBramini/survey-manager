@@ -1,0 +1,22 @@
+/* General classes */
+.bottom-padding {
+  height: 100px;
+}
+
+/* Retractable label manager surveys button */
+.retractable-label-manage-surveys {
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  z-index: 1030;
+}
+
+@media screen and (min-width: 567px) {
+  .retractable-label-manage-surveys {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 150px;
+    z-index: 1030;
+  }
+}

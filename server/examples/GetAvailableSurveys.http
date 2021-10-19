@@ -1,0 +1,1 @@
+GET http://localhost:3001/survey-manager/apis/surveys HTTP/1.1

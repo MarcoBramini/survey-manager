@@ -1,0 +1,15 @@
+.logo {
+  font-weight: 300;
+  font-size: 1em;
+  flex-direction: row;
+}
+
+.logo-large {
+  font-size: 2.5em;
+  flex-direction: column !important;
+}
+
+.logo-medium {
+  font-size: 1.5em;
+  flex-direction: column !important;
+}

@@ -1,0 +1,13 @@
+.navbar-placeholder[data-search] {
+  height: 117px;
+}
+
+.navbar-placeholder {
+  height: 71px;
+}
+
+@media screen and (min-width: 576px) {
+  .navbar-placeholder[data-search] {
+    height: 71px;
+  }
+}

@@ -1,0 +1,21 @@
+.rl-container {
+  border: 1px solid #17a2b8;
+  width: 250px;
+  right: -200px;
+  transition: right 0.5s;
+  position: absolute;
+  z-index: 1030px;
+}
+
+.rl-container[data-expanded] {
+  right: -1px;
+}
+
+.rl-outside-space {
+  position: fixed;
+  z-index: 1020;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}

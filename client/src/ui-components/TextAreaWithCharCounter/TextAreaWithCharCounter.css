@@ -1,0 +1,13 @@
+.char-counter {
+  position: relative;
+  top: -25px;
+  right: 18px;
+}
+
+.char-counter-container {
+  height: 0;
+}
+
+textarea {
+  resize: none !important;
+}

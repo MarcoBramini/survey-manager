@@ -1,0 +1,19 @@
+PUT http://localhost:3001/survey-manager/apis/admin/surveys/14/questions/28 HTTP/1.1
+Content-Type: application/json
+
+# {
+#         "position": 1,
+#         "title":"Do you like ice cream?",
+#         "type":"OPEN",
+#         "isOptional":false,
+#         "maxAnswerLength":200
+# }
+
+{
+        "position":2,
+        "title":"What flavor do you fancy?",
+        "type":"MULTIPLE_CHOICE",
+        "minChoices":1,
+        "maxChoices":1,
+        "options": ["Peanut","Strawberry", "Blackberry"]
+    }

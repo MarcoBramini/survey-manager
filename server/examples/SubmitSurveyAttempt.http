@@ -1,0 +1,23 @@
+POST http://localhost:3001/survey-manager/apis/surveys/1/attempts HTTP/1.1
+Content-Type: application/json
+
+{
+    "userFullName":"Mario Biondi",
+    "startedAt":"2021-06-20T12:00:00.000Z",
+    "answers":[{
+        "questionID": 1,
+        "value": null
+    },{
+        "questionID": 2,
+        "value": ["Si"]
+    },{
+        "questionID": 3,
+        "value": "si"
+    },{
+        "questionID": 4,
+        "value": ["1"]
+    },{
+        "questionID": 5,
+        "value": "si"
+    }]
+}

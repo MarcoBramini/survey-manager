@@ -1,0 +1,38 @@
+.survey-card-loading-overlay {
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.2;
+}
+
+.survey-card {
+  max-width: 100%;
+  flex: 1 0 500px;
+  margin: 0.5rem 0.25em;
+}
+
+.survey-card:hover {
+  border: 1px solid #17a2b8;
+}
+
+@media screen and (min-width: 768px) {
+  .survey-card {
+    max-width: calc(50% - 1em);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .survey-card {
+    max-width: calc(33% - 1em);
+  }
+}
+
+.survey-card-body {
+  cursor: pointer;
+}
+
+/* CreateSurveyCard */
+.create-survey-card {
+  min-height: 200px;
+  border-style: dashed !important;
+}

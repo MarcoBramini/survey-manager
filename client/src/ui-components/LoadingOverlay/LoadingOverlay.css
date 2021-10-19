@@ -1,0 +1,16 @@
+.loading-overlay {
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.15;
+  z-index: 1050;
+}
+
+.loading-spinner {
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  z-index: 1060;
+}
